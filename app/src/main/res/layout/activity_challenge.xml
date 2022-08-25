@@ -9,12 +9,19 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/challenge" />
+        android:src="@drawable/challenger" />
 
     <Button
         android:id="@+id/challenge"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/transparent"/>
+        android:layout_height="660dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@android:color/transparent" />
 
 </RelativeLayout>

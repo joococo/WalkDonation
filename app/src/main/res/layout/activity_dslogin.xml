@@ -4,23 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DonationActivity">
+    tools:context=".DSLoginActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/donation"/>
+        android:src="@drawable/login"/>
 
     <Button
-        android:id="@+id/back"
-        android:layout_width="match_parent"
+        android:id="@+id/start_login"
+        android:layout_width="400dp"
         android:layout_height="60dp"
-        android:background="@android:color/transparent"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
-    <Button
-        android:id="@+id/checkbox"
-        android:layout_width="match_parent"
-        android:layout_height="640dp"
-        android:layout_alignParentBottom="true"
-        android:background="@android:color/transparent"/>
 </RelativeLayout>

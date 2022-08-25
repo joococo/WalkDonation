@@ -53,8 +53,8 @@ public class InformationActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         MadView.loadAd(adRequest);
 
-        ImageView lala_gif_img = (ImageView)findViewById(R.id.lala_gif_img);
-        Glide.with(this).load(R.raw.run).into(lala_gif_img);
+        //ImageView lala_gif_img = (ImageView)findViewById(R.id.lala_gif_img);
+        //Glide.with(this).load(R.raw.run).into(lala_gif_img);
 
         //AdView adView = new AdView(this);
         //adView.setAdSize(AdSize.FULL_BANNER); //광고 사이즈는 배너 사이즈로 설정

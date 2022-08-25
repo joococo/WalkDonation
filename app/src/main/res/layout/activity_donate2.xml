@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DonationActivity">
+    tools:context=".Donate2Activity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/donation"/>
+        android:src="@drawable/donation_detail1"/>
 
     <Button
         android:id="@+id/back"
@@ -23,4 +23,5 @@
         android:layout_height="640dp"
         android:layout_alignParentBottom="true"
         android:background="@android:color/transparent"/>
+
 </RelativeLayout>

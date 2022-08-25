@@ -6,24 +6,21 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.Toast;
 
-public class LoginActivity extends AppCompatActivity {
+public class DSLoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_dslogin);
 
-        Button start_btn = (Button) findViewById(R.id.start);
+        Button login_btn = (Button) findViewById(R.id. start_login);
 
-        start_btn.setOnClickListener(new View.OnClickListener() {
+        login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), InformationActivity.class);
                 startActivity(intent);
-                Toast.makeText(getApplicationContext(),"Duksung님! 어서오세요!\n오늘도 힘차게 걸어봐요!",Toast.LENGTH_SHORT).show();
             }
         });
     }

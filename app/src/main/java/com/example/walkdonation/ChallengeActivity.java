@@ -16,11 +16,22 @@ public class ChallengeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_challenge);
 
         Button challenge_btn = (Button) findViewById(R.id. challenge);
+        Button back_btn = (Button) findViewById(R.id. back);
+
+
 
         challenge_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), CommunityActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
                 startActivity(intent);
             }
         });
