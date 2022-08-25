@@ -6,20 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".DSLoginActivity">
 
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="194dp"
+        android:ems="10"
+        android:hint="학과"
+        android:textStyle="bold"
+        android:spinnerMode="dropdown"></Spinner>
+
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/login"/>
+        android:src="@drawable/login" />
 
     <EditText
         android:id="@+id/id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="265dp"
-        android:hint="학번 8자리 입력"
         android:layout_marginLeft="70dp"
-        android:inputType="textShortMessage"
-        android:ems="10"/>
+        android:layout_marginTop="265dp"
+        android:ems="10"
+        android:hint="학번 8자리 입력"
+        android:inputType="textShortMessage" />
 
     <EditText
         android:id="@+id/pw"
@@ -39,5 +52,14 @@
         android:layout_marginTop="450dp"
         android:background="@android:color/transparent"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Hello"
+        android:textSize="24sp" />
 
 </RelativeLayout>
