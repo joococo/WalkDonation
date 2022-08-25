@@ -7,25 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class RankingActivity extends AppCompatActivity {
+public class Donate4Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ranking);
+        setContentView(R.layout.activity_donate4);
 
-        Button rankingdetail = (Button) findViewById(R.id. rank_inform);
-
-
-        rankingdetail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), RankingInformActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        Button back_btn = (Button) findViewById(R.id.back);
+        Button back_btn = (Button) findViewById(R.id. back);
 
         back_btn.setOnClickListener(new View.OnClickListener() {
             @Override

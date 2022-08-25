@@ -24,5 +24,14 @@ public class Donate3Activity extends AppCompatActivity {
             }
         });
 
+        Button next_btn = (Button) findViewById(R.id. checkbox);
+
+        next_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), Donate4Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

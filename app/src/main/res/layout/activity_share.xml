@@ -4,24 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CommunityActivity">
-
-    <Button
-        android:id="@+id/back"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@android:color/transparent"/>
+    tools:context=".ShareActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/challengedetail"/>
+        android:src="@drawable/share"/>
 
     <Button
-        android:id="@+id/checkbox"
+        android:id="@+id/back"
         android:layout_width="match_parent"
-        android:layout_height="640dp"
+        android:layout_height="300dp"
         android:layout_alignParentBottom="true"
         android:background="@android:color/transparent"/>
+
 
 </RelativeLayout>

@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/donation_detail2"/>
+        android:src="@drawable/donationdetail2"/>
 
     <Button
         android:id="@+id/back"
@@ -22,6 +22,6 @@
         android:layout_width="match_parent"
         android:layout_height="640dp"
         android:layout_alignParentBottom="true"
-        android:background="@android:color/transparent"/>
+        android:background="@android:color/transparent" />
 
 </RelativeLayout>

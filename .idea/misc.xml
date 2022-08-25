@@ -8,8 +8,9 @@
         <entry key="app/src/main/res/layout/activity_community.xml" value="0.2753623188405797" />
         <entry key="app/src/main/res/layout/activity_donate2.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_donate3.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/layout/activity_donate4.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/activity_donation.xml" value="0.15520833333333334" />
-        <entry key="app/src/main/res/layout/activity_dslogin.xml" value="0.1609375" />
+        <entry key="app/src/main/res/layout/activity_dslogin.xml" value="0.18730621337890627" />
         <entry key="app/src/main/res/layout/activity_information.xml" value="0.2715728759765625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.21270904541015626" />
         <entry key="app/src/main/res/layout/activity_logins.xml" value="0.12916666666666668" />
@@ -19,6 +20,7 @@
         <entry key="app/src/main/res/layout/activity_my_page.xml" value="0.2753623188405797" />
         <entry key="app/src/main/res/layout/activity_ranking.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_ranking_inform.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/layout/activity_share.xml" value="0.12968591691995948" />
       </map>
     </option>
   </component>

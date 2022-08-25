@@ -17,6 +17,12 @@
         android:theme="@style/Theme.WalkDonation"
         tools:targetApi="31">
         <activity
+            android:name=".ShareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Donate4Activity"
+            android:exported="false" />
+        <activity
             android:name=".Donate3Activity"
             android:exported="false" />
         <activity

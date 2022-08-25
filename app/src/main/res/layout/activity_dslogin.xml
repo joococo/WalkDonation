@@ -11,6 +11,26 @@
         android:layout_height="match_parent"
         android:src="@drawable/login"/>
 
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:hint="학번 8자리 입력"
+        android:layout_marginLeft="70dp"
+        android:inputType="textShortMessage"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="330dp"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:hint="비밀번호 입력"/>
+
     <Button
         android:id="@+id/start_login"
         android:layout_width="400dp"
