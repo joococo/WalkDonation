@@ -6,21 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".InformationActivity">
 
-    <ImageButton
-        android:id="@+id/Menu"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main" />
+
+    <ImageView
+        android:id="@+id/weather_gif_img"
+        android:layout_alignParentBottom="true"        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/menu"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:backgroundTint="@android:color/transparent"
-        android:src="@drawable/ic_baseline_menu_24" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/menubar" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent" />
 
     <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
@@ -38,6 +40,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="60dp"/>
+        android:layout_marginBottom="100dp"/>
 
 </RelativeLayout>

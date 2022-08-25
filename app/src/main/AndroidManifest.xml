@@ -4,7 +4,7 @@
     package="com.example.walkdonation">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,18 +16,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WalkDonation"
         tools:targetApi="31">
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCas_AsV1onbgVZB_dGVWU-htFY8aNSNco" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MyPageActivity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
-        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <activity
             android:name=".RankingInformActivity"
             android:exported="false" />
         <activity
             android:name=".CommunityActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TrashMapActivity"
             android:exported="false" />
         <activity
             android:name=".RankingActivity"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
@@ -15,14 +16,14 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ImageButton start_btn = (ImageButton) findViewById(R.id.login);
+        Button start_btn = (Button) findViewById(R.id.start);
 
         start_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), InformationActivity.class);
                 startActivity(intent);
-                Toast.makeText(getApplicationContext(),"Duksungs님! 어서오세요!\n오늘도 힘차게 걸어봐요!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Duksung님! 어서오세요!\n오늘도 힘차게 걸어봐요!",Toast.LENGTH_SHORT).show();
             }
         });
     }
