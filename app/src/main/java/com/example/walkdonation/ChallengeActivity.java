@@ -17,6 +17,8 @@ public class ChallengeActivity extends AppCompatActivity {
 
         Button challenge_btn = (Button) findViewById(R.id. challenge);
         Button back_btn = (Button) findViewById(R.id. back);
+        Button back_btn2 = (Button) findViewById(R.id. back2);
+        Button share_btn = (Button) findViewById(R.id. share);
 
 
 
@@ -32,6 +34,22 @@ public class ChallengeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        back_btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        share_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ShareActivity.class);
                 startActivity(intent);
             }
         });
